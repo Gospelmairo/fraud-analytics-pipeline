@@ -1,0 +1,81 @@
+# Core Python
+pandas==2.2.1
+faker==24.8.0
+boto3==1.34.54  # let this install the correct botocore version
+# botocore==1.37.31  <-- REMOVE THIS LINE
+
+# Airflow and dependencies
+apache-airflow==2.8.1
+apache-airflow-providers-amazon==8.13.0
+
+# Optional (useful for Snowflake or Spark steps later)
+snowflake-connector-python==3.6.0
+pyspark==3.5.1
+
+apache-airflow-providers-google
+apache-airflow-providers-http
+apache-airflow-providers-dbt-cloud
+google-cloud-storage
+pyarrow
+kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # Core Python
+# pandas==2.2.1
+# faker==24.8.0
+# boto3==1.34.54
+
+# botocore==1.37.31
+
+# # Airflow and dependencies
+# apache-airflow==2.8.1
+# apache-airflow-providers-amazon==8.13.0
+
+# # Optional (useful for Snowflake or Spark steps later)
+# snowflake-connector-python==3.6.0
+# pyspark==3.5.1
+
+# apache-airflow-providers-google
+# apache-airflow-providers-http
+# apache-airflow-providers-dbt-cloud
+# google-cloud-storage
+# pyarrow
+# kaggle
