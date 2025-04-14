@@ -82,6 +82,8 @@ Kaggle ➝ S3 ➝ PySpark ➝ Cleaned Data ➝ Snowflake ➝ SQL Queries ➝ Fra
 5. **SQL Analytics in Snowflake:**  
    - Ran fraud detection queries to derive insights  
 
+NB: **Next, I’m integrating all of these steps into an Airflow DAG for full orchestration and automation, so ignore the airflow and dockek_setup. After that, I plan to add a real-time streaming component using Kafka or simulated event streams**
+
 ---
 
 ## 🛠️ Setup Instructions
@@ -89,7 +91,7 @@ Kaggle ➝ S3 ➝ PySpark ➝ Cleaned Data ➝ Snowflake ➝ SQL Queries ➝ Fra
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/fraud-analytics-pipeline.git
+git clone https://github.com/Gospelmairo/fraud-analytics-pipeline.git
 cd fraud-analytics-pipeline
 ```
 
@@ -129,8 +131,10 @@ Then open [http://localhost:8080](http://localhost:8080) to access the Airflow U
 
 1. **Download Kaggle Data** → Upload to S3  
 2. **PySpark Transformation**  
-3. **Batch Ingestion to Snowflake**  
-4. **Run SQL Transformations and Insights**
+3. **Infrastructure Setup with Terraform**
+4. **Batch Ingestion to Snowflake**  
+5. **Run SQL Transformations and Insights**
+
 
 ---
 
