@@ -1,6 +1,6 @@
 # 🚀 Real-Time Fraud Analytics Cloud Pipeline
 
-A cloud-native data pipeline that ingests transaction data from Kaggle, transforms it using Apache Spark, stores it in Snowflake, and analyzes it to detect fraudulent activity — all orchestrated with Apache Airflow.
+A cloud-native data pipeline that ingests transaction data from Kaggle, transforms it using Apache Spark, stores it in Snowflake, and analyzes it to detect fraudulent activity — all orchestrated with Apache Airflow and provisioned using Terraform.
 
 ---
 
